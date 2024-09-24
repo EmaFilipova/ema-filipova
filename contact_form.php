@@ -1,7 +1,7 @@
 <?php
 	// Edit these lines
-	$your_name = "Your Name";
-	$your_email = "mail@domain.com";
+	$your_name = "Ema Filipová";
+	$your_email = "emaa.filipova@gmail.com";
 	//Subject Field
 	$mail_subject = "You have a message sent from your site.";
 ?>
@@ -74,7 +74,7 @@ if(isset($_POST['name'])) {
 <html lang="en">
 
 <head>
-  <title>Ema crearive portfolio</title>
+  <title>Ema the best portfolio</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -245,49 +245,11 @@ if(isset($_POST['name'])) {
 					<nav id="one-page-menu" class="vertical-menu my-5">
 						<ul class="menu-list list-unstyled">
 							<li><a href="index.html#billboard" class="nav-link">Home</a></li>
-							<li><a href="index.html#about" class="nav-link">About Me</a></li>
-							<li><a href="index.html#experience" class="nav-link">Experience</a></li>
+							<li><a href="index.html#about" class="nav-link">My Experience</a></li>
+							<li><a href="index.html#experience" class="nav-link">About Me</a></li>
 							<li><a href="index.html#portfolio" class="nav-link">Works</a></li>
 							<li><a href="index.html#contact" class="nav-link">Contact</a></li>
-							<li>
-								<a class="nav-link btn-toggle d-flex justify-content-between align-items-center collapsed"
-									data-bs-toggle="collapse" data-bs-target="#pages-collapse" aria-expanded="false">
-									Pages
-								</a>
-								<div id="pages-collapse" class="collapse">
-									<ul class="list-unstyled py-3">
-										<li>
-											<a href="single-post.html">Single Post <span
-													class="badge bg-primary">PRO</span></a>
-										</li>
-										<li>
-											<a href="single-portfolio.html">Single Portfolio <span
-													class="badge bg-primary">PRO</span></a>
-										</li>
-										<li>
-											<a href="contact.html">Contact <span class="badge bg-primary">PRO</span></a>
-										</li>
-										<li>
-											<a href="team.html">My Team <span class="badge bg-primary">PRO</span></a>
-										</li>
-										<li>
-											<a href="blog.html">Blog <span class="badge bg-primary">PRO</span></a>
-										</li>
-										<li>
-											<a href="portfolio-masonry.html">Portfolio Masonry <span
-													class="badge bg-primary">PRO</span></a>
-										</li>
-										<li>
-											<a href="styles.html">Styles <span class="badge bg-primary">PRO</span></a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li><a href="https://templatesjungle.gumroad.com/l/julia-onepage-portfolio" target="_blank"
-									class="nav-link d-flex justify-content-between align-items-center fw-bold"><span>Get
-										PRO</span> <svg width="18" height="18" viewBox="0 0 24 24">
-										<use xlink:href="#cart"></use>
-									</svg></a></li>
+							
 						</ul>
 					</nav>
 				</div>
@@ -296,35 +258,8 @@ if(isset($_POST['name'])) {
 						<a href="mailto:emaa.filipova@gmail.com"
 							class="py-3 my-3 border-bottom d-flex">emaa.filipova@gmail.com</a>
 					</div>
+
 					<ul class="list-unstyled d-flex justify-content-start flex-wrap gap-3">
-						<li>
-							<a href="#" class="text-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24">
-									<use xlink:href="#facebook"></use>
-								</svg>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="text-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24">
-									<use xlink:href="#twitter"></use>
-								</svg>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="text-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24">
-									<use xlink:href="#youtube"></use>
-								</svg>
-							</a>
-						</li>
-						<li>
-							<a href="#" class="text-dark">
-								<svg width="24" height="24" viewBox="0 0 24 24">
-									<use xlink:href="#pinterest"></use>
-								</svg>
-							</a>
-						</li>
 						<li>
 							<a href="#" class="text-dark">
 								<svg width="24" height="24" viewBox="0 0 24 24">
@@ -332,7 +267,16 @@ if(isset($_POST['name'])) {
 								</svg>
 							</a>
 						</li>
+						<li>
+							<a href="#" class="text-dark">
+								<svg width="24" height="24" viewBox="0 0 24 24">
+									<use xlink:href="#facebook"></use>
+								</svg>
+							</a>
+						</li>
+						
 					</ul>
+						
 					<div class="py-4 border-top">
 						<p>© 2024<a href="https://templatesjungle.com/" target="_blank">Ema Filipová</a></p>
 					</div>
