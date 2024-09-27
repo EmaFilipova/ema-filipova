@@ -125,7 +125,7 @@ a {
 
 /* btn */
 .btn {
-  --bs-btn-border-radius: 0;
+  --bs-btn-border-radius: 0px;
 }
 
 .btn-primary {
@@ -698,9 +698,56 @@ header {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  border: 2px solid #f82093;
+  border: 2px solid #000000;
   border-radius: 40px;
   max-width: 600px; /* Adjust as needed */
   margin: auto; /* Center the div horizontally */
   box-sizing: border-box; /* Ensure padding and border are included in the total width/height */
+}
+.flexbox-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  width: 100%; /* Full width of the container */
+  max-width: 800px; /* Maximum width */
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 40px;
+  background-color: white;
+  margin: 20px auto; /* Center the container and provide some margin */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
+
+.flexbox-container img {
+  max-width: 150px; /* Adjust the size of the image */
+  margin-right: 20px; /* Spacing between image and text */
+  border-radius: 8px; /* Optional: Rounded corners for the image */
+}
+
+.flexbox-container .flexbox-content {
+  flex: 1; /* Take remaining space */
+}
+
+.flexbox-container h2 {
+  margin-top: 0;
+}
+
+.flexbox-container p {
+  margin-bottom: 20px;
+}
+
+.flexbox-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 0px;
+  transition: background-color 0.3s;
+}
+
+.flexbox-container a:hover {
+  background-color: #000000;
+}
+.underline-text {
+  text-decoration: underline;
 }
