@@ -699,6 +699,7 @@ header {
   flex-direction: column;
   padding: 20px;
   border: 2px solid #000000;
+  background-color: white;
   border-radius: 40px;
   max-width: 600px; /* Adjust as needed */
   margin: auto; /* Center the div horizontally */
